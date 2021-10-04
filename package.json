@@ -1,0 +1,37 @@
+{
+  "name": "backend-pautas",
+  "version": "1.0.0",
+  "description": "Backend para criar pautas e gerenciar sessões",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/dreyksonbessa16/backend-pautas.git"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "pautas",
+    "sessões"
+  ],
+  "author": "Dreykson Oliveira Bessa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/dreyksonbessa16/backend-pautas/issues"
+  },
+  "homepage": "https://gitlab.com/dreyksonbessa16/backend-pautas#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
